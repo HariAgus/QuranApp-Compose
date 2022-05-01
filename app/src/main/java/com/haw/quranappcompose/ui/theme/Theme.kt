@@ -40,7 +40,7 @@ fun QuranAppComposeTheme(
 
     MaterialTheme(
         colors = colors,
-        typography = Typography,
+        typography = PoppinsTypography,
         shapes = Shapes,
         content = content
     )
