@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">QuranAppCompose</string>
     <string name="icon_logo">Icon Logo</string>
+    <string name="ahlul_quran">Ahlul Quran</string>
+    <string name="ic_ahlul_quran">Icon Ahlul Quran</string>
+    <string name="motivation_book">Motivation Book</string>
+    <string name="motivasi">Motivasi</string>
+    <string name="sample_motivasi">Sebaik - baik manusia diantara kamu adalah yang mempelajari Al-Quran dan mengajarkannya (HR Bukhori)</string>
 </resources>

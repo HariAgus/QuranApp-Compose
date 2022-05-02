@@ -9,14 +9,7 @@ import androidx.compose.ui.unit.sp
 import com.haw.quranappcompose.R
 
 val Poppins = FontFamily(
-    Font(R.font.poppins_extra_light),
-    Font(R.font.poppins_light),
     Font(R.font.poppins_medium),
-    Font(R.font.poppins_medium_italic),
-    Font(R.font.poppins_semi_bold),
-    Font(R.font.poppins_semi_bold_italic),
-    Font(R.font.poppins_bold),
-    Font(R.font.poppins_extra_bold),
 )
 
 val PoppinsTypography = Typography(
@@ -25,4 +18,34 @@ val PoppinsTypography = Typography(
         fontWeight = FontWeight.Bold,
         fontSize = 24.sp
     ),
+    h2 = TextStyle(
+        fontFamily = Poppins,
+        fontWeight = FontWeight.Medium,
+        fontSize = 20.sp
+    ),
+    h3 = TextStyle(
+        fontFamily = Poppins,
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 18.sp
+    ),
+    h4 = TextStyle(
+        fontFamily = Poppins,
+        fontWeight = FontWeight.Medium,
+        fontSize = 18.sp
+    ),
+    h5 = TextStyle(
+        fontFamily = Poppins,
+        fontWeight = FontWeight.Medium,
+        fontSize = 16.sp
+    ),
+    h6 = TextStyle(
+        fontFamily = Poppins,
+        fontWeight = FontWeight.Medium,
+        fontSize = 14.sp
+    ),
+    body1 = TextStyle(
+        fontFamily = Poppins,
+        fontWeight = FontWeight.Normal,
+        fontSize = 16.sp
+    )
 )
